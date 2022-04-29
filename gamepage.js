@@ -14,7 +14,7 @@ var x = document.getElementById("guessField").value;
 if(x == y)
 {    
    alert("¡¡¡FELICIDADES!!!"+playername+"  LO ADIVINASTE BIEN "
-           + guess + " GUESS ");
+           + guess + " INTENTO ");
     guess= 1;
 }
 else if(x > y) /* si el número adivinado es mayor que el número actual*/ 
